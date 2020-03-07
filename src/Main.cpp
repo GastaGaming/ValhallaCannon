@@ -81,7 +81,8 @@ public:
 		// These parameters should be self-explanatory.
 		// See http://urho3d.github.io/documentation/1.5/_main_loop.html
 		// for a more complete list.
-		ngineParameters_["WindowTitle"] = "Valhalla Cannon";
+		engineParameters_["WindowIcon"] = "vc_icon.ico";
+		engineParameters_["WindowTitle"] = "Valhalla Cannon";
 		engineParameters_["FullScreen"] = false;
 		engineParameters_["WindowWidth"] = 1280;
 		engineParameters_["WindowHeight"] = 720;//1280 : 960 for 4:3
