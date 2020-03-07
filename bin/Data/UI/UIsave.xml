@@ -1,0 +1,671 @@
+<?xml version="1.0"?>
+<element>
+	<attribute name="Size" value="1280 720" />
+	<element type="Window">
+		<attribute name="Size" value="1280 720" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Priority" value="-4" />
+		<attribute name="Color" value="1 1 1 0" />
+		<attribute name="Top Left Color" value="1 1 1 0" />
+		<attribute name="Top Right Color" value="1 1 1 0" />
+		<attribute name="Bottom Left Color" value="1 1 1 0" />
+		<attribute name="Bottom Right Color" value="1 1 1 0" />
+		<attribute name="Is Visible" value="false" />
+		<element>
+			<attribute name="Size" value="1280 720" />
+			<attribute name="Pivot" value="0 0" />
+			<element type="Sprite" style="Sprite">
+				<attribute name="Size" value="1280 720" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Vikings_SplashScreenBG.png" />
+				<attribute name="Image Rect" value="0 0 1920 1080" />
+			</element>
+			<element type="Sprite" style="Sprite">
+				<attribute name="Size" value="1280 720" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_MenuBlackBG.png" />
+				<attribute name="Image Rect" value="0 0 1920 1080" />
+				<attribute name="Color" value="1 1 1 0.99" />
+				<attribute name="Top Left Color" value="1 1 1 0.99" />
+				<attribute name="Top Right Color" value="1 1 1 0.99" />
+				<attribute name="Bottom Left Color" value="1 1 1 0.99" />
+				<attribute name="Bottom Right Color" value="1 1 1 0.99" />
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="Close settings" />
+				<attribute name="Position" value="-200 33" />
+				<attribute name="Size" value="122 122" />
+				<attribute name="Min Anchor" value="1 0" />
+				<attribute name="Max Anchor" value="1 0" />
+				<attribute name="Pivot" value="1 0" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_ButtonExit.png" />
+				<attribute name="Image Rect" value="0 0 244 245" />
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="Toggle audio" />
+				<attribute name="Position" value="400 133" />
+				<attribute name="Size" value="150 150" />
+				<attribute name="Min Anchor" value="0.5 0.5" />
+				<attribute name="Max Anchor" value="0.5 0.5" />
+				<attribute name="Pivot" value="0.5 0.5" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_ButtonMuteOff.png" />
+				<attribute name="Image Rect" value="0 0 220 220" />
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="Toggle background" />
+				<attribute name="Position" value="400 -66" />
+				<attribute name="Size" value="150 150" />
+				<attribute name="Min Anchor" value="0.5 0.5" />
+				<attribute name="Max Anchor" value="0.5 0.5" />
+				<attribute name="Pivot" value="0.5 0.5" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_ButtonBgToggle.png" />
+				<attribute name="Image Rect" value="0 0 220 220" />
+			</element>
+		</element>
+	</element>
+	<element type="Window">
+		<attribute name="Size" value="1280 720" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Priority" value="-4" />
+		<attribute name="Color" value="1 1 1 0" />
+		<attribute name="Top Left Color" value="1 1 1 0" />
+		<attribute name="Top Right Color" value="1 1 1 0" />
+		<attribute name="Bottom Left Color" value="1 1 1 0" />
+		<attribute name="Bottom Right Color" value="1 1 1 0" />
+		<attribute name="Is Visible" value="false" />
+		<element>
+			<attribute name="Size" value="1280 720" />
+			<attribute name="Pivot" value="0 0" />
+			<element type="Sprite" style="Sprite">
+				<attribute name="Size" value="1280 720" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_MenuBlackBG.png" />
+				<attribute name="Image Rect" value="0 0 1920 1080" />
+				<attribute name="Color" value="1 1 1 0.99" />
+				<attribute name="Top Left Color" value="1 1 1 0.99" />
+				<attribute name="Top Right Color" value="1 1 1 0.99" />
+				<attribute name="Bottom Left Color" value="1 1 1 0.99" />
+				<attribute name="Bottom Right Color" value="1 1 1 0.99" />
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="Restart level" />
+				<attribute name="Position" value="-200 133" />
+				<attribute name="Size" value="153 153" />
+				<attribute name="Min Anchor" value="0.5 0.5" />
+				<attribute name="Max Anchor" value="0.5 0.5" />
+				<attribute name="Pivot" value="0.5 0.5" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_ButtonRepeatLevel.png" />
+				<attribute name="Image Rect" value="0 0 220 220" />
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="Next level" />
+				<attribute name="Position" value="200 133" />
+				<attribute name="Size" value="153 153" />
+				<attribute name="Min Anchor" value="0.5 0.5" />
+				<attribute name="Max Anchor" value="0.5 0.5" />
+				<attribute name="Pivot" value="0.5 0.5" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_ButtonNextLevel.png" />
+				<attribute name="Image Rect" value="0 0 220 220" />
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="MainMenu button" />
+				<attribute name="Position" value="-200 33" />
+				<attribute name="Size" value="122 122" />
+				<attribute name="Min Anchor" value="1 0" />
+				<attribute name="Max Anchor" value="1 0" />
+				<attribute name="Pivot" value="1 0" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_ButtonExit.png" />
+				<attribute name="Image Rect" value="0 0 244 245" />
+			</element>
+			<element type="Sprite">
+				<attribute name="Position" value="-256 133.333" />
+				<attribute name="Size" value="512 128" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_PillagedText.png" />
+				<attribute name="Image Rect" value="0 0 512 128" />
+				<attribute name="Horiz Alignment" value="Center" />
+			</element>
+		</element>
+	</element>
+	<element type="Window">
+		<attribute name="Size" value="1280 720" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Priority" value="-4" />
+		<attribute name="Color" value="1 1 1 0" />
+		<attribute name="Top Left Color" value="1 1 1 0" />
+		<attribute name="Top Right Color" value="1 1 1 0" />
+		<attribute name="Bottom Left Color" value="1 1 1 0" />
+		<attribute name="Bottom Right Color" value="1 1 1 0" />
+		<attribute name="Is Visible" value="false" />
+		<element>
+			<attribute name="Size" value="1280 720" />
+			<attribute name="Pivot" value="0 0" />
+			<element type="Sprite" style="Sprite">
+				<attribute name="Size" value="1280 720" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_MenuBlackBG.png" />
+				<attribute name="Image Rect" value="0 0 1920 1080" />
+				<attribute name="Color" value="1 1 1 0.99" />
+				<attribute name="Top Left Color" value="1 1 1 0.99" />
+				<attribute name="Top Right Color" value="1 1 1 0.99" />
+				<attribute name="Bottom Left Color" value="1 1 1 0.99" />
+				<attribute name="Bottom Right Color" value="1 1 1 0.99" />
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="Restart level" />
+				<attribute name="Position" value="0 133" />
+				<attribute name="Size" value="153 153" />
+				<attribute name="Min Anchor" value="0.5 0.5" />
+				<attribute name="Max Anchor" value="0.5 0.5" />
+				<attribute name="Pivot" value="0.5 0.5" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_ButtonRepeatLevel.png" />
+				<attribute name="Image Rect" value="0 0 220 220" />
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="MainMenu button" />
+				<attribute name="Position" value="-200 33" />
+				<attribute name="Size" value="122 122" />
+				<attribute name="Min Anchor" value="1 0" />
+				<attribute name="Max Anchor" value="1 0" />
+				<attribute name="Pivot" value="1 0" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_ButtonExit.png" />
+				<attribute name="Image Rect" value="0 0 244 245" />
+			</element>
+			<element type="Sprite">
+				<attribute name="Position" value="-256 133.333" />
+				<attribute name="Size" value="512 128" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_BotchedText.png" />
+				<attribute name="Image Rect" value="0 0 512 128" />
+				<attribute name="Horiz Alignment" value="Center" />
+			</element>
+		</element>
+	</element>
+	<element type="Window">
+		<attribute name="Size" value="1280 720" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Priority" value="-3" />
+		<attribute name="Color" value="1 1 1 0" />
+		<attribute name="Top Left Color" value="1 1 1 0" />
+		<attribute name="Top Right Color" value="1 1 1 0" />
+		<attribute name="Bottom Left Color" value="1 1 1 0" />
+		<attribute name="Bottom Right Color" value="1 1 1 0" />
+		<attribute name="Is Visible" value="false" />
+		<element>
+			<attribute name="Size" value="1280 720" />
+			<attribute name="Pivot" value="0 0" />
+			<element type="Sprite" style="Sprite">
+				<attribute name="Size" value="1280 720" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Vikings_SplashScreenBG.png" />
+				<attribute name="Image Rect" value="0 0 1920 1080" />
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="Start button" />
+				<attribute name="Position" value="-66 -133" />
+				<attribute name="Size" value="203 122" />
+				<attribute name="Min Anchor" value="1 0.5" />
+				<attribute name="Max Anchor" value="1 0.5" />
+				<attribute name="Pivot" value="1 0.5" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_ButtonStart.png" />
+				<attribute name="Image Rect" value="0 0 407 245" />
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="Options button" />
+				<attribute name="Position" value="-66 66" />
+				<attribute name="Size" value="203 122" />
+				<attribute name="Min Anchor" value="1 0.5" />
+				<attribute name="Max Anchor" value="1 0.5" />
+				<attribute name="Pivot" value="1 0.5" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_ButtonOptions.png" />
+				<attribute name="Image Rect" value="0 0 407 245" />
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="Quit button" />
+				<attribute name="Position" value="-5 -5" />
+				<attribute name="Size" value="122 122" />
+				<attribute name="Min Anchor" value="1 1" />
+				<attribute name="Max Anchor" value="1 1" />
+				<attribute name="Pivot" value="1 1" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_ButtonExit.png" />
+				<attribute name="Image Rect" value="0 0 244 245" />
+			</element>
+		</element>
+	</element>
+	<element type="Window">
+		<attribute name="Size" value="1280 720" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Priority" value="-2" />
+		<attribute name="Color" value="1 1 1 0" />
+		<attribute name="Top Left Color" value="1 1 1 0" />
+		<attribute name="Top Right Color" value="1 1 1 0" />
+		<attribute name="Bottom Left Color" value="1 1 1 0" />
+		<attribute name="Bottom Right Color" value="1 1 1 0" />
+		<attribute name="Is Visible" value="false" />
+		<element>
+			<attribute name="Size" value="1280 720" />
+			<attribute name="Pivot" value="0 0" />
+			<element type="Sprite" style="Sprite">
+				<attribute name="Size" value="1280 720" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Vikings_SplashScreenBG.png" />
+				<attribute name="Image Rect" value="0 0 1920 1080" />
+			</element>
+			<element type="Sprite" style="Sprite">
+				<attribute name="Size" value="1280 720" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_MenuBlackBG.png" />
+				<attribute name="Image Rect" value="0 0 1920 1080" />
+				<attribute name="Color" value="1 1 1 0.99" />
+				<attribute name="Top Left Color" value="1 1 1 0.99" />
+				<attribute name="Top Right Color" value="1 1 1 0.99" />
+				<attribute name="Bottom Left Color" value="1 1 1 0.99" />
+				<attribute name="Bottom Right Color" value="1 1 1 0.99" />
+				<element type="Button">
+					<attribute name="Name" value="MainMenu button" />
+					<attribute name="Position" value="-200 33" />
+					<attribute name="Size" value="122 122" />
+					<attribute name="Min Anchor" value="1 0" />
+					<attribute name="Max Anchor" value="1 0" />
+					<attribute name="Pivot" value="1 0" />
+					<attribute name="Texture" value="Texture2D;Urho2D/Spr_ButtonExit.png" />
+					<attribute name="Image Rect" value="0 0 244 245" />
+				</element>
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="Level 1" />
+				<attribute name="Position" value="-400 -266" />
+				<attribute name="Size" value="105 106" />
+				<attribute name="Min Anchor" value="0.5 0.5" />
+				<attribute name="Max Anchor" value="0.5 0.5" />
+				<attribute name="Pivot" value="0.5 0.5" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_ButtonLevelSelector01.png" />
+				<attribute name="Image Rect" value="0 0 244 245" />
+				<element type="Text">
+					<attribute name="Name" value="Text 1" />
+					<attribute name="Min Anchor" value="0.5 0.5" />
+					<attribute name="Max Anchor" value="0.5 0.5" />
+					<attribute name="Pivot" value="0.5 0.5" />
+					<attribute name="Font" value="Font;Fonts/Anonymous Pro.ttf" />
+					<attribute name="Font Size" value="40" />
+					<attribute name="Text" value="1" />
+					<attribute name="Text Alignment" value="Center" />
+				</element>
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="Level 2" />
+				<attribute name="Position" value="-266 -266" />
+				<attribute name="Size" value="105 106" />
+				<attribute name="Min Anchor" value="0.5 0.5" />
+				<attribute name="Max Anchor" value="0.5 0.5" />
+				<attribute name="Pivot" value="0.5 0.5" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_ButtonLevelSelector01.png" />
+				<attribute name="Image Rect" value="0 0 244 245" />
+				<element type="Text">
+					<attribute name="Name" value="Text 2" />
+					<attribute name="Min Anchor" value="0.5 0.5" />
+					<attribute name="Max Anchor" value="0.5 0.5" />
+					<attribute name="Pivot" value="0.5 0.5" />
+					<attribute name="Font" value="Font;Fonts/Anonymous Pro.ttf" />
+					<attribute name="Font Size" value="40" />
+					<attribute name="Text" value="2" />
+					<attribute name="Text Alignment" value="Center" />
+				</element>
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="Level 3" />
+				<attribute name="Position" value="-133 -266" />
+				<attribute name="Size" value="105 106" />
+				<attribute name="Min Anchor" value="0.5 0.5" />
+				<attribute name="Max Anchor" value="0.5 0.5" />
+				<attribute name="Pivot" value="0.5 0.5" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_ButtonLevelSelector01.png" />
+				<attribute name="Image Rect" value="0 0 244 245" />
+				<element type="Text">
+					<attribute name="Name" value="Text 3" />
+					<attribute name="Min Anchor" value="0.5 0.5" />
+					<attribute name="Max Anchor" value="0.5 0.5" />
+					<attribute name="Pivot" value="0.5 0.5" />
+					<attribute name="Font" value="Font;Fonts/Anonymous Pro.ttf" />
+					<attribute name="Font Size" value="40" />
+					<attribute name="Text" value="3" />
+					<attribute name="Text Alignment" value="Center" />
+				</element>
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="Level 4" />
+				<attribute name="Position" value="0 -266" />
+				<attribute name="Size" value="105 106" />
+				<attribute name="Min Anchor" value="0.5 0.5" />
+				<attribute name="Max Anchor" value="0.5 0.5" />
+				<attribute name="Pivot" value="0.5 0.5" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_ButtonLevelSelector01.png" />
+				<attribute name="Image Rect" value="0 0 244 245" />
+				<element type="Text">
+					<attribute name="Name" value="Text 4" />
+					<attribute name="Min Anchor" value="0.5 0.5" />
+					<attribute name="Max Anchor" value="0.5 0.5" />
+					<attribute name="Pivot" value="0.5 0.5" />
+					<attribute name="Font" value="Font;Fonts/Anonymous Pro.ttf" />
+					<attribute name="Font Size" value="40" />
+					<attribute name="Text" value="4" />
+					<attribute name="Text Alignment" value="Center" />
+				</element>
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="Level 5" />
+				<attribute name="Position" value="133 -266" />
+				<attribute name="Size" value="105 106" />
+				<attribute name="Min Anchor" value="0.5 0.5" />
+				<attribute name="Max Anchor" value="0.5 0.5" />
+				<attribute name="Pivot" value="0.5 0.5" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_ButtonLevelSelector01.png" />
+				<attribute name="Image Rect" value="0 0 244 245" />
+				<element type="Text">
+					<attribute name="Name" value="Text 5" />
+					<attribute name="Min Anchor" value="0.5 0.5" />
+					<attribute name="Max Anchor" value="0.5 0.5" />
+					<attribute name="Pivot" value="0.5 0.5" />
+					<attribute name="Font" value="Font;Fonts/Anonymous Pro.ttf" />
+					<attribute name="Font Size" value="40" />
+					<attribute name="Text" value="5" />
+					<attribute name="Text Alignment" value="Center" />
+				</element>
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="Level 6" />
+				<attribute name="Position" value="-400 0" />
+				<attribute name="Size" value="105 106" />
+				<attribute name="Min Anchor" value="0.5 0.5" />
+				<attribute name="Max Anchor" value="0.5 0.5" />
+				<attribute name="Pivot" value="0.5 0.5" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_ButtonLevelSelector01.png" />
+				<attribute name="Image Rect" value="0 0 244 245" />
+				<element type="Text">
+					<attribute name="Name" value="Text 6" />
+					<attribute name="Min Anchor" value="0.5 0.5" />
+					<attribute name="Max Anchor" value="0.5 0.5" />
+					<attribute name="Pivot" value="0.5 0.5" />
+					<attribute name="Font" value="Font;Fonts/Anonymous Pro.ttf" />
+					<attribute name="Font Size" value="40" />
+					<attribute name="Text" value="6" />
+					<attribute name="Text Alignment" value="Center" />
+				</element>
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="Level 7" />
+				<attribute name="Position" value="-266 0" />
+				<attribute name="Size" value="105 106" />
+				<attribute name="Min Anchor" value="0.5 0.5" />
+				<attribute name="Max Anchor" value="0.5 0.5" />
+				<attribute name="Pivot" value="0.5 0.5" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_ButtonLevelSelector01.png" />
+				<attribute name="Image Rect" value="0 0 244 245" />
+				<element type="Text">
+					<attribute name="Name" value="Text 7" />
+					<attribute name="Min Anchor" value="0.5 0.5" />
+					<attribute name="Max Anchor" value="0.5 0.5" />
+					<attribute name="Pivot" value="0.5 0.5" />
+					<attribute name="Font" value="Font;Fonts/Anonymous Pro.ttf" />
+					<attribute name="Font Size" value="40" />
+					<attribute name="Text" value="7" />
+					<attribute name="Text Alignment" value="Center" />
+				</element>
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="Level 8" />
+				<attribute name="Position" value="-133 0" />
+				<attribute name="Size" value="105 106" />
+				<attribute name="Min Anchor" value="0.5 0.5" />
+				<attribute name="Max Anchor" value="0.5 0.5" />
+				<attribute name="Pivot" value="0.5 0.5" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_ButtonLevelSelector01.png" />
+				<attribute name="Image Rect" value="0 0 244 245" />
+				<element type="Text">
+					<attribute name="Name" value="Text 8" />
+					<attribute name="Min Anchor" value="0.5 0.5" />
+					<attribute name="Max Anchor" value="0.5 0.5" />
+					<attribute name="Pivot" value="0.5 0.5" />
+					<attribute name="Font" value="Font;Fonts/Anonymous Pro.ttf" />
+					<attribute name="Font Size" value="40" />
+					<attribute name="Text" value="8" />
+					<attribute name="Text Alignment" value="Center" />
+				</element>
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="Level 9" />
+				<attribute name="Size" value="105 106" />
+				<attribute name="Min Anchor" value="0.5 0.5" />
+				<attribute name="Max Anchor" value="0.5 0.5" />
+				<attribute name="Pivot" value="0.5 0.5" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_ButtonLevelSelector01.png" />
+				<attribute name="Image Rect" value="0 0 244 245" />
+				<element type="Text">
+					<attribute name="Name" value="Text 9" />
+					<attribute name="Min Anchor" value="0.5 0.5" />
+					<attribute name="Max Anchor" value="0.5 0.5" />
+					<attribute name="Pivot" value="0.5 0.5" />
+					<attribute name="Font" value="Font;Fonts/Anonymous Pro.ttf" />
+					<attribute name="Font Size" value="40" />
+					<attribute name="Text" value="9" />
+					<attribute name="Text Alignment" value="Center" />
+				</element>
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="Level 10" />
+				<attribute name="Position" value="133 0" />
+				<attribute name="Size" value="105 106" />
+				<attribute name="Min Anchor" value="0.5 0.5" />
+				<attribute name="Max Anchor" value="0.5 0.5" />
+				<attribute name="Pivot" value="0.5 0.5" />
+				<attribute name="Is Visible" value="false" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_ButtonLevelSelector01.png" />
+				<attribute name="Image Rect" value="0 0 244 245" />
+				<element type="Text">
+					<attribute name="Name" value="Text 10" />
+					<attribute name="Min Anchor" value="0.5 0.5" />
+					<attribute name="Max Anchor" value="0.5 0.5" />
+					<attribute name="Pivot" value="0.5 0.5" />
+					<attribute name="Font" value="Font;Fonts/Anonymous Pro.ttf" />
+					<attribute name="Font Size" value="40" />
+					<attribute name="Text" value="10" />
+					<attribute name="Text Alignment" value="Center" />
+				</element>
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="Level 11" />
+				<attribute name="Position" value="266 0" />
+				<attribute name="Size" value="105 106" />
+				<attribute name="Min Anchor" value="0.5 0.5" />
+				<attribute name="Max Anchor" value="0.5 0.5" />
+				<attribute name="Pivot" value="0.5 0.5" />
+				<attribute name="Is Visible" value="false" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_ButtonLevelSelector01.png" />
+				<attribute name="Image Rect" value="0 0 244 245" />
+				<element type="Text">
+					<attribute name="Name" value="Text 11" />
+					<attribute name="Min Anchor" value="0.5 0.5" />
+					<attribute name="Max Anchor" value="0.5 0.5" />
+					<attribute name="Pivot" value="0.5 0.5" />
+					<attribute name="Font" value="Font;Fonts/Anonymous Pro.ttf" />
+					<attribute name="Font Size" value="40" />
+					<attribute name="Text" value="11" />
+					<attribute name="Text Alignment" value="Center" />
+				</element>
+			</element>
+		</element>
+	</element>
+	<element type="Window">
+		<attribute name="Size" value="1280 720" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Priority" value="-1" />
+		<attribute name="Color" value="1 1 1 0" />
+		<attribute name="Top Left Color" value="1 1 1 0" />
+		<attribute name="Top Right Color" value="1 1 1 0" />
+		<attribute name="Bottom Left Color" value="1 1 1 0" />
+		<attribute name="Bottom Right Color" value="1 1 1 0" />
+		<attribute name="Is Visible" value="false" />
+		<element>
+			<attribute name="Size" value="1280 720" />
+			<attribute name="Pivot" value="0 0" />
+			<element type="Sprite" style="Sprite">
+				<attribute name="Size" value="1280 720" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_MenuBlackBG.png" />
+				<attribute name="Image Rect" value="0 0 1920 1080" />
+				<attribute name="Color" value="1 1 1 0.99" />
+				<attribute name="Top Left Color" value="1 1 1 0.99" />
+				<attribute name="Top Right Color" value="1 1 1 0.99" />
+				<attribute name="Bottom Left Color" value="1 1 1 0.99" />
+				<attribute name="Bottom Right Color" value="1 1 1 0.99" />
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="Close pause" />
+				<attribute name="Position" value="200 33" />
+				<attribute name="Size" value="150 150" />
+				<attribute name="Pivot" value="0 0" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_PlayButtonLogo.png" />
+				<attribute name="Image Rect" value="0 0 220 220" />
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="Restart level" />
+				<attribute name="Position" value="-200 -133" />
+				<attribute name="Size" value="150 150" />
+				<attribute name="Min Anchor" value="0.5 0.5" />
+				<attribute name="Max Anchor" value="0.5 0.5" />
+				<attribute name="Pivot" value="0.5 0.5" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_ButtonRepeatLevel.png" />
+				<attribute name="Image Rect" value="0 0 220 220" />
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="MainMenu button" />
+				<attribute name="Position" value="-200 33" />
+				<attribute name="Size" value="150 150" />
+				<attribute name="Min Anchor" value="1 0" />
+				<attribute name="Max Anchor" value="1 0" />
+				<attribute name="Pivot" value="1 0" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_ButtonExit.png" />
+				<attribute name="Image Rect" value="0 0 244 245" />
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="Pause toggle audio" />
+				<attribute name="Position" value="166 133" />
+				<attribute name="Size" value="150 150" />
+				<attribute name="Min Anchor" value="0.5 0.5" />
+				<attribute name="Max Anchor" value="0.5 0.5" />
+				<attribute name="Pivot" value="0.5 0.5" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_ButtonMuteOff.png" />
+				<attribute name="Image Rect" value="0 0 220 220" />
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="Pause toggle background" />
+				<attribute name="Position" value="166 -133" />
+				<attribute name="Size" value="150 150" />
+				<attribute name="Min Anchor" value="0.5 0.5" />
+				<attribute name="Max Anchor" value="0.5 0.5" />
+				<attribute name="Pivot" value="0.5 0.5" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_ButtonBgToggle.png" />
+				<attribute name="Image Rect" value="0 0 220 220" />
+			</element>
+		</element>
+	</element>
+	<element type="Window">
+		<attribute name="Size" value="1280 720" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Color" value="1 1 1 0" />
+		<attribute name="Top Left Color" value="1 1 1 0" />
+		<attribute name="Top Right Color" value="1 1 1 0" />
+		<attribute name="Bottom Left Color" value="1 1 1 0" />
+		<attribute name="Bottom Right Color" value="1 1 1 0" />
+		<element>
+			<attribute name="Size" value="1280 720" />
+			<attribute name="Pivot" value="0 0" />
+			<element type="Button">
+				<attribute name="Name" value="Pause button" />
+				<attribute name="Position" value="5 5" />
+				<attribute name="Size" value="98 98" />
+				<attribute name="Pivot" value="0 0" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_ButtonPauseLogo.png" />
+				<attribute name="Image Rect" value="0 0 220 220" />
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="Heavy button" />
+				<attribute name="Position" value="-233 0" />
+				<attribute name="Size" value="116 116" />
+				<attribute name="Min Anchor" value="1 1" />
+				<attribute name="Max Anchor" value="1 1" />
+				<attribute name="Pivot" value="1 1" />
+				<attribute name="Color" value="0.5 0.5 0.5 1" />
+				<attribute name="Top Left Color" value="0.5 0.5 0.5 1" />
+				<attribute name="Top Right Color" value="0.5 0.5 0.5 1" />
+				<attribute name="Bottom Left Color" value="0.5 0.5 0.5 1" />
+				<attribute name="Bottom Right Color" value="0.5 0.5 0.5 1" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_ButtonHeavyViking.png" />
+				<attribute name="Image Rect" value="0 0 237 237" />
+				<element type="Text">
+					<attribute name="Name" value="Heavy number" />
+					<attribute name="Min Anchor" value="1 1" />
+					<attribute name="Max Anchor" value="1 1" />
+					<attribute name="Pivot" value="1 1" />
+					<attribute name="Font" value="Font;Fonts/Anonymous Pro.ttf" />
+					<attribute name="Font Size" value="33.3333" />
+					<attribute name="Text" value="1" />
+					<attribute name="Text Alignment" value="Center" />
+				</element>
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="Rogue button" />
+				<attribute name="Position" value="-116 0" />
+				<attribute name="Size" value="116 116" />
+				<attribute name="Min Anchor" value="1 1" />
+				<attribute name="Max Anchor" value="1 1" />
+				<attribute name="Pivot" value="1 1" />
+				<attribute name="Color" value="0.5 0.5 0.5 1" />
+				<attribute name="Top Left Color" value="0.5 0.5 0.5 1" />
+				<attribute name="Top Right Color" value="0.5 0.5 0.5 1" />
+				<attribute name="Bottom Left Color" value="0.5 0.5 0.5 1" />
+				<attribute name="Bottom Right Color" value="0.5 0.5 0.5 1" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_ButtonRogue.png" />
+				<attribute name="Image Rect" value="0 0 238 238" />
+				<element type="Text">
+					<attribute name="Name" value="Rogue number" />
+					<attribute name="Min Anchor" value="1 1" />
+					<attribute name="Max Anchor" value="1 1" />
+					<attribute name="Pivot" value="1 1" />
+					<attribute name="Font" value="Font;Fonts/Anonymous Pro.ttf" />
+					<attribute name="Font Size" value="33.3333" />
+					<attribute name="Text" value="3" />
+					<attribute name="Text Alignment" value="Center" />
+				</element>
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="Torcher button" />
+				<attribute name="Size" value="116 116" />
+				<attribute name="Min Anchor" value="1 1" />
+				<attribute name="Max Anchor" value="1 1" />
+				<attribute name="Pivot" value="1 1" />
+				<attribute name="Color" value="0.5 0.5 0.5 1" />
+				<attribute name="Top Left Color" value="0.5 0.5 0.5 1" />
+				<attribute name="Top Right Color" value="0.5 0.5 0.5 1" />
+				<attribute name="Bottom Left Color" value="0.5 0.5 0.5 1" />
+				<attribute name="Bottom Right Color" value="0.5 0.5 0.5 1" />
+				<attribute name="Is Enabled" value="false" />
+				<attribute name="Is Visible" value="false" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_ButtonTorcher.png" />
+				<attribute name="Image Rect" value="0 0 238 237" />
+				<element type="Text">
+					<attribute name="Name" value="Torcher number" />
+					<attribute name="Min Anchor" value="1 1" />
+					<attribute name="Max Anchor" value="1 1" />
+					<attribute name="Pivot" value="1 1" />
+					<attribute name="Font" value="Font;Fonts/Anonymous Pro.ttf" />
+					<attribute name="Font Size" value="33.3333" />
+					<attribute name="Text" value="0" />
+					<attribute name="Text Alignment" value="Center" />
+				</element>
+			</element>
+			<element type="Sprite">
+				<attribute name="Name" value="powerSlider" />
+				<attribute name="Position" value="133.333 20" />
+				<attribute name="Size" value="0 66" />
+				<attribute name="Texture" value="Texture2D;Urho2D/Spr_SliderBG.png" />
+				<attribute name="Image Rect" value="0 0 256 64" />
+				<attribute name="Color" value="0 1 0 1" />
+				<attribute name="Top Left Color" value="0 1 0 1" />
+				<attribute name="Top Right Color" value="0 1 0 1" />
+				<attribute name="Bottom Left Color" value="0 1 0 1" />
+				<attribute name="Bottom Right Color" value="0 1 0 1" />
+			</element>
+		</element>
+	</element>
+</element>

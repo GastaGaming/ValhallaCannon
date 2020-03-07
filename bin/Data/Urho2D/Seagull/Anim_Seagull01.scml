@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="Spr_SeagullLeftWing.png" width="181" height="116" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="Spr_SeagullBody.png" width="209" height="207" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="Spr_SeagullRightWing.png" width="202" height="124" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="Spr_Seagull01.png" width="242" height="209" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="seagull">
+        <obj_info name="bone_000" type="bone" w="83.7616" h="10"/>
+        <obj_info name="bone_001" type="bone" w="184.011" h="10"/>
+        <obj_info name="bone_002" type="bone" w="157.41" h="10"/>
+        <obj_info name="bone_003" type="bone" w="168.404" h="10"/>
+        <obj_info name="bone_004" type="bone" w="191.971" h="10"/>
+        <animation id="0" name="Idle" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <bone_ref id="0" timeline="1" key="0"/>
+                    <object_ref id="0" parent="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="500">
+                    <bone_ref id="0" timeline="1" key="1"/>
+                    <object_ref id="0" parent="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="2" time="1000">
+                    <bone_ref id="0" timeline="1" key="2"/>
+                    <object_ref id="0" parent="0" timeline="0" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="Spr_Seagull01">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="79.423637" y="-17.55182" pivot_x="0.462835" pivot_y="0.458819" angle="252.857779"/>
+                </key>
+                <key id="1" time="1000" spin="0">
+                    <object folder="0" file="3" x="79.423637" y="-17.55182" pivot_x="0.462835" pivot_y="0.458819" angle="252.857779"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="4" name="bone_004" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="11" y="-76" angle="114.081175"/>
+                </key>
+                <key id="1" time="500" spin="0">
+                    <bone x="11" y="-76" angle="114.081175" scale_x="0.951811" scale_y="1"/>
+                </key>
+                <key id="2" time="1000" spin="0">
+                    <bone x="11" y="-76" angle="114.081175"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="Flight" length="200" interval="100">
+            <mainline>
+                <key id="0">
+                    <bone_ref id="0" timeline="3" key="0"/>
+                    <bone_ref id="1" parent="0" timeline="4" key="0"/>
+                    <bone_ref id="2" parent="0" timeline="5" key="0"/>
+                    <object_ref id="0" parent="2" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" parent="0" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" parent="1" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="1" time="100">
+                    <bone_ref id="0" timeline="3" key="1"/>
+                    <bone_ref id="1" parent="0" timeline="4" key="1"/>
+                    <bone_ref id="2" parent="0" timeline="5" key="1"/>
+                    <object_ref id="0" parent="2" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" parent="0" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" parent="1" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="2" time="200">
+                    <bone_ref id="0" timeline="3" key="2"/>
+                    <bone_ref id="1" parent="0" timeline="4" key="2"/>
+                    <bone_ref id="2" parent="0" timeline="5" key="2"/>
+                    <object_ref id="0" parent="2" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" parent="0" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" parent="1" timeline="2" key="1" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="Spr_SeagullLeftWing">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="31.776338" y="7.809808" pivot_x="0.698929" pivot_y="0.342946" angle="205.351134"/>
+                </key>
+                <key id="1" time="200" spin="0">
+                    <object folder="0" file="0" x="31.776338" y="7.809808" pivot_x="0.698929" pivot_y="0.342946" angle="205.351134"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="Spr_SeagullBody">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="214.073531" y="-38.115654" angle="213.310631"/>
+                </key>
+                <key id="1" time="200" spin="0">
+                    <object folder="0" file="1" x="214.073531" y="-38.115654" angle="213.310631"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="Spr_SeagullRightWing">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="22.96524" y="-0.164235" pivot_x="0.178694" pivot_y="0.283872" angle="335.396254"/>
+                </key>
+                <key id="1" time="200" spin="0">
+                    <object folder="0" file="2" x="22.96524" y="-0.164235" pivot_x="0.178694" pivot_y="0.283872" angle="335.396254"/>
+                </key>
+            </timeline>
+            <timeline id="3" obj="0" name="bone_000" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="52" y="-33" angle="146.689369"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <bone x="52" y="-24" angle="146.689369"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <bone x="52" y="-33" angle="146.689369"/>
+                </key>
+            </timeline>
+            <timeline id="4" obj="1" name="bone_001" object_type="bone">
+                <key id="0" spin="-1">
+                    <bone x="84.310744" y="-0.835705" angle="250.803284"/>
+                </key>
+                <key id="1" time="100">
+                    <bone x="88.154989" y="-6.685644" angle="207.195127"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <bone x="84.310744" y="-0.835705" angle="250.803284"/>
+                </key>
+            </timeline>
+            <timeline id="5" obj="2" name="bone_002" object_type="bone">
+                <key id="0">
+                    <bone x="82.639333" y="-1.934061" angle="357.09593"/>
+                </key>
+                <key id="1" time="100" spin="-1">
+                    <bone x="82.639333" y="-1.934061" angle="58.378094"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <bone x="82.639333" y="-1.934061" angle="357.09593"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

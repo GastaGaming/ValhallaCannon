@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<particleeffect>
+	<material name="Materials/Flame01.xml" />
+	<numparticles value="1061" />
+	<updateinvisible enable="false" />
+	<relative enable="false" />
+	<scaled enable="true" />
+	<sorted enable="false" />
+	<fixedscreensize enable="false" />
+	<animlodbias value="-0.04" />
+	<emittertype value="Sphere" />
+	<emittersize value="5.37 0.05 0" />
+	<direction min="-0.1 0.1 -0.1" max="0.1 1 0.1" />
+	<constantforce value="0 2 0" />
+	<dampingforce value="1.06" />
+	<activetime value="0" />
+	<inactivetime value="0" />
+	<emissionrate min="40" max="50" />
+	<particlesize min="0.2 0.46" max="0.74 2.73" />
+	<timetolive min="0.49" max="2.7" />
+	<velocity min="1" max="2" />
+	<rotation min="5.58" max="4.51" />
+	<rotationspeed min="0.2" max="0" />
+	<sizedelta add="-0.38" mul="0.89" />
+	<faceCameraMode value="Rotate XYZ" />
+	<colorfade color="2.16 4.67 1.35 1" time="0" />
+	<colorfade color="1 0.63 0.45 1" time="0.5" />
+	<colorfade color="4.01 0.33 1.13 0.15" time="1" />
+</particleeffect>

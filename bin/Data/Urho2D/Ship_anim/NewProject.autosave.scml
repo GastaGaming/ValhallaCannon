@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="Spr_ShipPanel.png" width="146" height="310" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="Spr_ShipSailsDown.png" width="914" height="1049" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="Spr_Cannon01.png" width="128" height="128" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <animation id="0" name="NewAnimation" length="2000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="2" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="1" key="1" z_index="2"/>
+                </key>
+                <key id="1" time="718">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="2" key="3" z_index="1"/>
+                    <object_ref id="2" timeline="1" key="2" z_index="2"/>
+                </key>
+                <key id="2" time="1483">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="2" key="4" z_index="1"/>
+                    <object_ref id="2" timeline="1" key="4" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="Spr_ShipPanel">
+                <key id="0">
+                    <object folder="0" file="0" x="4.040816" y="34.163265" scale_x="0.580545" scale_y="0.476201"/>
+                </key>
+                <key id="1" time="718" spin="-1">
+                    <object folder="0" file="0" x="-2.690731" y="49.460136" angle="11.779132" scale_x="0.580545" scale_y="0.476201"/>
+                </key>
+                <key id="2" time="1483">
+                    <object folder="0" file="0" x="-0.388903" y="29.502979" angle="354.517418" scale_x="0.580545" scale_y="0.476201"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="Spr_ShipSailsDown">
+                <key id="0">
+                    <object folder="0" file="1" x="-68.080209" y="16.72115" scale_x="0.448754" scale_y="0.448754"/>
+                </key>
+                <key id="1">
+                    <object folder="0" file="1" x="-289.222222" y="314.555556" scale_x="0.448754" scale_y="0.448754"/>
+                </key>
+                <key id="2" time="718" spin="-1">
+                    <object folder="0" file="1" x="-347.017327" y="264.081294" angle="11.779132" scale_x="0.448754" scale_y="0.448754"/>
+                </key>
+                <key id="3" time="1483" spin="-1">
+                    <object folder="0" file="1" x="-264.127622" y="345.213457" pivot_x="0" pivot_y="1" angle="354.517418" scale_x="0.448754" scale_y="0.448754"/>
+                </key>
+                <key id="4" time="1483">
+                    <object folder="0" file="1" x="-72.453306" y="27.612954" pivot_x="0.539159" pivot_y="0.367309" angle="354.517418" scale_x="0.448754" scale_y="0.448754"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="Spr_Cannon01">
+                <key id="0" spin="-1">
+                    <object folder="0" file="2" x="19.99666" y="-39.346359" scale_x="1.391634" scale_y="1.391634"/>
+                </key>
+                <key id="1" spin="-1">
+                    <object folder="0" file="2" x="-17.163265" y="57.653061" scale_x="1.391634" scale_y="1.391634"/>
+                </key>
+                <key id="2" time="718" spin="-1">
+                    <object folder="0" file="2" x="5.917418" y="93.26684" pivot_x="0" pivot_y="1" angle="351.852735" scale_x="1.391634" scale_y="1.391634"/>
+                </key>
+                <key id="3" time="718">
+                    <object folder="0" file="2" x="28.95574" y="-8.0198" pivot_x="0.208612" pivot_y="0.455455" angle="351.852735" scale_x="1.391634" scale_y="1.391634"/>
+                </key>
+                <key id="4" time="1483" spin="-1">
+                    <object folder="0" file="2" x="24.648245" y="-47.571299" pivot_x="0.208612" pivot_y="0.455455" angle="15.824203" scale_x="1.391634" scale_y="1.391634"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
